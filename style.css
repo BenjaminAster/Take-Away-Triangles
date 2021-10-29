@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#Box-0, #Box-1, #Box-2 {
+  background-color: black;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  font-family: Consolas;
+  font-weight: bold;
+  color: white;
+  outline: none;
+}
+
+
+#Box-0::-webkit-inner-spin-button,
+#Box-0::-webkit-outer-spin-button,
+#Box-1::-webkit-inner-spin-button,
+#Box-1::-webkit-outer-spin-button,
+#Box-2::-webkit-inner-spin-button,
+#Box-2::-webkit-outer-spin-button
+{
+  -webkit-apperance: red;
+}
+
+#info {
+  background-color: black;
+  border-color: white;
+  color: white;
+  border-style: solid;
+  font-family: Segoe UI;
+  font-weight: bold;
+  border-radius: 999px;
+  outline: none;
+}
+
